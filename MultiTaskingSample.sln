@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.48
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTaskingSample", "MultiTaskingSample\MultiTaskingSample.csproj", "{05976247-BAE2-4716-ADCE-39343EE438B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperTest", "AutoMapperTest\AutoMapperTest.csproj", "{6A2212DE-DA02-492E-9F6F-A2CBCE9F8078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05976247-BAE2-4716-ADCE-39343EE438B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05976247-BAE2-4716-ADCE-39343EE438B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05976247-BAE2-4716-ADCE-39343EE438B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05976247-BAE2-4716-ADCE-39343EE438B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2212DE-DA02-492E-9F6F-A2CBCE9F8078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2212DE-DA02-492E-9F6F-A2CBCE9F8078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2212DE-DA02-492E-9F6F-A2CBCE9F8078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2212DE-DA02-492E-9F6F-A2CBCE9F8078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0923F98D-9740-4862-A8AB-FA1DB383117E}
+	EndGlobalSection
+EndGlobal
