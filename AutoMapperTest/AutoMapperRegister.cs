@@ -21,7 +21,7 @@ namespace AutoMapperTest
                 })
                 .ForMember(x=>x.Age, (target) =>
                 {
-                    target.ResolveUsing<short>((source) => Convert.ToInt16((DateTime.Now.Year - source.DateOfBirth.Year) + 1));
+                    target.ResolveUsing<short>((source) => Convert.ToInt16((DateTime.Now.Year - source.DateOfBirth.Year)));
                 });
                 config.CreateMap<PersonViewModel, PersonModel>();
             });

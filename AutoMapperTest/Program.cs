@@ -14,8 +14,8 @@ namespace AutoMapperTest
         {
             PersonModel personModel = new PersonModel
             {
-                FirstName = "X",
-                LastName = "Y",
+                FirstName = "Michael",
+                LastName = "Hawk",
                 DateOfBirth = new DateTime(2010,10,10)
             };
             PersonViewModel personViewModel = AutoMapper.Mapper.Map<PersonModel,PersonViewModel>(personModel);
